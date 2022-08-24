@@ -1,0 +1,19 @@
+{
+  "name": "mathflip_api",
+  "version": "1.0.0",
+  "description": "Mathflip API Server for handling firebase admin sdk functions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Warren D. Rezane",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
